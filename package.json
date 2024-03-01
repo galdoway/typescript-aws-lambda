@@ -1,0 +1,25 @@
+{
+  "name": "typescript-aws-lambda",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AWS Lambda Typescript Template...",
+  "scripts": {
+    "build": "npx swc ./src -d dist"
+  },
+  "author": {
+    "name": "Galdoway",
+    "url": "https://github.com/galdoway"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.3.10",
+    "@swc/core": "^1.4.2",
+    "@swc/jest": "^0.2.36",
+    "@types/aws-lambda": "^8.10.134",
+    "jest": "^29.7.0",
+    "typescript": "^5.3.3"
+  }
+}
